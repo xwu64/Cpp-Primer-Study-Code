@@ -23,3 +23,11 @@ Run code for understanding pointer:
 ```
 ./pointer.sh
 ```
+
+## Section 2.4: Const
+
+The basic concept of `const` is easy, but it becomes mess when it accompanies with other things, like reference, pointer. Read code in "understand_const.cc" can give you a sense of using const. Run code by
+
+```
+./understand_const.sh
+```
