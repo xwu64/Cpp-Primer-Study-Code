@@ -31,3 +31,11 @@ The basic concept of `const` is easy, but it becomes mess when it accompanies wi
 ```
 ./understand_const.sh
 ```
+
+## Section 2.5: Type alias
+
+This section not only cover type alias but also `auto` and `decltype`. However, I don't know how to create a meaningful program to explain these two concepts. So code in "understand_types.cc" only show how to use `using` and `typedef` to create type alias. Run code by 
+
+```
+make understand_types
+```
