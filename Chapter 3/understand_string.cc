@@ -14,4 +14,10 @@ int main(){
     for (auto &c : s1)
         c = 'X';
     std::cout << s1 << std::endl; // output "XXXXX"
+
+    //Segmentation fault: 11 
+    //  you are accessing memory that is not allowed by OS.
+    for (int i=0; i>=0; i++){
+        std::cout << i << " " << (int)s1[i] << std::endl;
+    }
 }

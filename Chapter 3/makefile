@@ -6,3 +6,6 @@ endef
 
 understand_string:
 	$(call run_program,"understand_string")
+
+understand_vector:
+	$(call run_program,"understand_vector")
