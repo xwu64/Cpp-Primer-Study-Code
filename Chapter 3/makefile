@@ -9,3 +9,6 @@ understand_string:
 
 understand_vector:
 	$(call run_program,"understand_vector")
+
+understand_iterator:
+	$(call run_program,"understand_iterator")
